@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="NBA LIVE Mobile" />
+
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="Electronic Arts" />
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvArtist"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
+        app:layout_constraintTop_toBottomOf="@+id/tvArtist"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales rutrum finibus. In non posuere libero. Pellentesque tristique nisi ante, quis aliquet metus suscipit eget. Curabitur egestas ligula in mauris tempus posuere. Fusce dolor neque, imperdiet dapibus lorem nec, ultricies placerat risus. Nunc in diam a odio suscipit mattis et eget mi. Sed aliquet cursus diam, in placerat est pulvinar blandit. Morbi venenatis dui sit amet viverra finibus. Nullam eu augue vel diam egestas faucibus. Maecenas vestibulum felis metus, ac varius nunc dictum at. Fusce rutrum, sapien nec rutrum pellentesque, ipsum elit porta nunc, id dictum risus velit eu nisl. Nullam at enim diam. Aenean et fringilla nibh. Aenean ut volutpat justo, vel varius ligula.  Curabitur ultrices, velit a ultrices eleifend, massa leo vestibulum tellus, vitae interdum arcu purus vitae leo. Sed efficitur auctor enim, eu consectetur arcu egestas eu. Nunc dictum dolor eu sem porttitor, in ornare velit fermentum. Quisque eget leo orci. Praesent massa tellus, posuere a porta non, aliquet quis felis. Fusce sit amet aliquet ipsum, ut auctor augue. Duis hendrerit orci fringilla fermentum varius. Morbi non urna a dui hendrerit tristique ut eu libero.  Fusce nec pretium tortor, sed pharetra urna. Duis faucibus cursus mauris, in finibus metus hendrerit non. Nulla consequat, metus at aliquet consequat, purus orci tempus ipsum, eget imperdiet mi eros eget leo. Vivamus volutpat ipsum est, id feugiat ligula faucibus scelerisque. Donec nibh eros, tincidunt non ligula eu, tincidunt sollicitudin nisi. Fusce pretium porta nisi id ullamcorper. Proin maximus neque eu nisl gravida, viverra sodales nunc faucibus. In in metus ornare, fringilla dui in, facilisis quam. Proin augue neque, placerat quis commodo et, luctus ut nibh. Integer viverra euismod tortor, ut ultricies odio elementum a. Aliquam augue lectus, elementum non libero nec, rutrum pharetra orci. Donec nisi mauris, semper vitae fermentum non, sollicitudin sit amet lorem. Maecenas a vulputate enim. In sollicitudin magna arcu, eu efficitur ipsum laoreet eu. Duis ex turpis, iaculis non tortor ultrices, euismod ultrices risus.  Quisque et ex massa. Suspendisse sollicitudin tincidunt quam. Pellentesque sit amet ante arcu. Aliquam lacinia vitae libero interdum rhoncus. Morbi mauris justo, lobortis ut elit sed, hendrerit facilisis purus. Proin quis purus lectus. Maecenas vitae nisl lorem. Etiam consectetur risus lorem, sit amet dictum ipsum posuere in. Donec eros nulla, dignissim vel nibh pharetra, cursus aliquam neque. Maecenas tellus nisl, facilisis vitae bibendum sed, molestie a purus.  Morbi vel nisl a elit lacinia ornare quis ac tellus. Donec blandit egestas dignissim. Nullam a turpis ligula. Duis non ipsum eget nisl porttitor convallis. Donec at tristique nunc, eget molestie neque. Proin ut feugiat ipsum. Morbi pulvinar luctus dolor, in rutrum risus dapibus non. Sed semper maximus est, ac eleifend tortor dapibus mollis. Sed in quam orci. Quisque leo lectus, consequat at urna vitae, elementum rutrum libero." />
+</androidx.constraintlayout.widget.ConstraintLayout>
